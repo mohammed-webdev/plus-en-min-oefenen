@@ -18,10 +18,11 @@ body {
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background-color: rgb(38, 79, 79);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 * {
@@ -39,4 +40,71 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+
+section{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+height: 50vh;
+  background-color: green;
+}
+
+h1{
+  margin-right: 20px;
+  font-size: 50px;
+}
+
+input{
+  
+  background-color:white;
+  height: 40px;
+ 
+  text-align: center;
+  color: #171717;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 90px;
+    font-size: 25px;
+  
+}
+
+button{
+  
+
+  
+  color: #171717;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 3px solid lightgrey;
+  margin-left: 20px;
+  cursor: pointer;
+  padding: 7px;
+
+}
+
+.antwoord{
+  margin-left: 150px;
+  font-size: 40px;
+}
+
+.green{
+  color: lightseagreen;
+}
+.red{
+  color: red;
+}
+
+h2{
+  text-align: center;
+  background-color: #171717;
+  padding: 40px;
+  font-size: 50px;
+}
+
+.yahoo{
+  background-color: red;
 }
