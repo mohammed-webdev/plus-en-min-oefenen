@@ -35,7 +35,7 @@ checkNumbers()
          //console.log(btnRef);
          
   //  console.log(goedCounter);
-   if(goedCounter == 10){
+   if(goedCounter == 25){
     alert(`🌞🌈GOED GEDAAN MINNA. Jij hebt ${goedCounter} goed antworden en ${foutCounter} niet goed antwoorden.✅ Klik op 'OK' om opnieuw te spelen🎈🎁`)
    
       setGoedCounter(0)
